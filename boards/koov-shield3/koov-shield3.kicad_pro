@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|119027001|55575001|8b141c1f-df12-49fe-8d9a-cd0c2dbc463c|b532ab80-c714-48b0-968c-c7f6a7d5cb52",
+        "courtyards_overlap|125122999|55600001|8b141c1f-df12-49fe-8d9a-cd0c2dbc463c|87d583c8-df8a-4b1a-9b1b-5038641ea21e"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -606,7 +609,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,

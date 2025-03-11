@@ -2682,6 +2682,12 @@
 		(color 0 0 0 0)
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
+	(junction
+		(at 227.33 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c452cb4f-3136-493b-a75f-1579b61814a5")
+	)
 	(no_connect
 		(at 59.69 30.48)
 		(uuid "d181157c-7812-47e5-a0cf-9580c905fc86")
@@ -2695,16 +2701,6 @@
 			(type solid)
 		)
 		(uuid "010ba307-2067-49d3-b0fa-6414143f3fc2")
-	)
-	(wire
-		(pts
-			(xy 224.79 121.92) (xy 231.14 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0166adff-859b-4e4a-9c23-ecf2de6123c4")
 	)
 	(wire
 		(pts
@@ -3108,6 +3104,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 34.29) (xy 262.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a714b8f-dcca-4cdf-84f0-e14fc78f5f21")
+	)
+	(wire
+		(pts
 			(xy 87.63 38.1) (xy 100.33 38.1)
 		)
 		(stroke
@@ -3508,6 +3514,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 29.21) (xy 262.89 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35653ea-31b0-4ae3-a58b-13ebea4bc093")
+	)
+	(wire
+		(pts
 			(xy 154.94 137.16) (xy 165.1 137.16)
 		)
 		(stroke
@@ -3588,6 +3604,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 21.59) (xy 257.81 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeedbb5d-4d59-4b19-a593-c2500e8b4dc8")
+	)
+	(wire
+		(pts
 			(xy 87.63 162.56) (xy 97.79 162.56)
 		)
 		(stroke
@@ -3615,6 +3641,16 @@
 			(type default)
 		)
 		(uuid "afc6458a-6e46-48ac-84f1-a994adc8966f")
+	)
+	(wire
+		(pts
+			(xy 257.81 41.91) (xy 257.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc9df27-3b69-4caf-a435-01403f7e2e37")
 	)
 	(wire
 		(pts
@@ -3715,6 +3751,16 @@
 			(type default)
 		)
 		(uuid "c34fd7e8-9a30-43e9-ba52-9ad59e207991")
+	)
+	(wire
+		(pts
+			(xy 227.33 121.92) (xy 227.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4348329-865e-4d2f-a03c-95aad0f46479")
 	)
 	(wire
 		(pts
@@ -3918,6 +3964,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 121.92) (xy 227.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb74f822-c749-48da-bb91-cc7dc62254d5")
+	)
+	(wire
+		(pts
 			(xy 87.63 68.58) (xy 100.33 68.58)
 		)
 		(stroke
@@ -3965,6 +4021,16 @@
 			(type default)
 		)
 		(uuid "f2f420a6-9459-46f7-bdc6-510e16a20df7")
+	)
+	(wire
+		(pts
+			(xy 257.81 31.75) (xy 262.89 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b83405-b4f2-4fbd-af9f-fabcce077dc9")
 	)
 	(wire
 		(pts
@@ -4220,6 +4286,17 @@
 			(justify right bottom)
 		)
 		(uuid "3ffaa3b1-1d78-4c7b-bdf9-f1a8019c92fd")
+	)
+	(label "11"
+		(at 252.73 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4080e3be-f0df-4098-acd6-02bf9dfee4a7")
 	)
 	(label "DV_VDD"
 		(at 245.11 106.68 0)
@@ -4517,17 +4594,6 @@
 			(justify right bottom)
 		)
 		(uuid "c348793d-eec0-4f33-9b91-2cae8b4224a4")
-	)
-	(label "11"
-		(at 224.79 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3b022de-cbc9-46ea-9c3a-d8c53a77ad9a")
 	)
 	(label "13"
 		(at 224.79 124.46 0)
@@ -6861,6 +6927,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 257.81 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5930f98a-d78e-4a0e-934b-318085c87b00")
+		(property "Reference" "#PWR040"
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 257.81 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65e1498c-3072-4653-ad2b-1b2938315cfd")
+		)
+		(instances
+			(project "koov-shield3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 236.22 124.46 0)
 		(unit 1)
@@ -7416,6 +7548,73 @@
 			(project "koov-shield3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "I2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 257.81 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7afa1bbd-9972-494c-af33-560a75f2b5a7")
+		(property "Reference" "#PWR041"
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "840edab4-6a69-4c0c-b133-95e9a44fcf68")
+		)
+		(instances
+			(project "koov-shield3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8812,6 +9011,78 @@
 			(project "koov-shield3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 267.97 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef032f3b-ea02-4835-8f69-e0601742c36a")
+		(property "Reference" "UTL1"
+			(at 265.938 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e3f4584-9789-471a-9393-0d214429829d")
+		)
+		(pin "3"
+			(uuid "148a4e61-49d9-45f1-a7aa-f07cce7de86f")
+		)
+		(pin "1"
+			(uuid "916c06c8-8698-4238-9f73-37569b619f50")
+		)
+		(instances
+			(project "koov-shield3"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "UTL1")
 					(unit 1)
 				)
 			)
