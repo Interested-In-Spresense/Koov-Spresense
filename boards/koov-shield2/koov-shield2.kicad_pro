@@ -60,8 +60,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|119022001|55575001|6a3f9954-352c-48cb-ab28-7092314d6de6|b532ab80-c714-48b0-968c-c7f6a7d5cb52",
-        "courtyards_overlap|125117999|55600001|6a3f9954-352c-48cb-ab28-7092314d6de6|87d583c8-df8a-4b1a-9b1b-5038641ea21e"
+        "courtyards_overlap|119082001|55575001|842f0721-2ef7-42fe-abb0-019a631cc86b|b532ab80-c714-48b0-968c-c7f6a7d5cb52",
+        "courtyards_overlap|125177999|55600001|842f0721-2ef7-42fe-abb0-019a631cc86b|87d583c8-df8a-4b1a-9b1b-5038641ea21e"
       ],
       "meta": {
         "filename": "board_design_settings.json",
