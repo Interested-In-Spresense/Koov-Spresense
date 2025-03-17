@@ -16,4 +16,4 @@
 
 ## ライセンス
 
-本コードおよび回路図は、MITライセンスの下で公開されています。
+本コードおよび回路図は、CC BY 4.0 License (Creative Commons Attribution 4.0 International License)ライセンスの下で公開されています。
