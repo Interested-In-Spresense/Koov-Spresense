@@ -10193,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "DV_VDD"
 			(at 181.61 110.49 0)
 			(effects
 				(font
